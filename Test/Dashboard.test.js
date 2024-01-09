@@ -15,7 +15,7 @@ test('renders dashboard page when authenticated', () => {
       <Dashboard />
     </AuthProvider>
   );
-
+//add
   // Assert that the dashboard content is present
   expect(getByText('Home')).toBeInTheDocument();
 });
